@@ -19,3 +19,4 @@ output "value" {
 
 output "petname" {
   value = "${random_pet.server.id}"
+}
