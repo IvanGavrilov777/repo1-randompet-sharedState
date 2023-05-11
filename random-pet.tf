@@ -16,3 +16,6 @@ resource "random_pet" "server" {
 output "value" {
   value = "New_Pet_is_called_${random_pet.server.id}"
 }
+
+output "petname" {
+  value = "${random_pet.server.id}"
